@@ -1,0 +1,141 @@
+    1  ls
+    2  cd home
+    3  ls
+    4  cd
+    5  cd root
+    6  ls
+    7  ls
+    8  cd
+    9  ls
+   10  cd server_lesson/
+   11  ls
+   12  cd
+   13  ls
+   14  cd /
+   15  ls
+   16  cd /root
+   17  ls
+   18  cd server_lesson/
+   19  ls
+   20  git log
+   21  git branch
+   22  git checkout -b practice2
+   23  git branch
+   24  mkdir linux_practice2
+   25  ls
+   26  cd linux_practice2
+   27  mkdir documents
+   28  ls
+   29  cd documents/
+   30  ls
+   31  ls
+   32  touch gizumo01.md{1..50}
+   33  ls
+   34  git status
+   35  git add../
+   36  git status
+   37  git add ../
+   38  git status
+   39  git commit -m "Q1"
+   40  git log
+   41  cd ./
+   42  ls
+   43  cd ../
+   44  ls
+   45  mkdir trash
+   46  ls
+   47  cd trash/
+   48  ls
+   49  ls
+   50  cd ../
+   51  ls
+   52  cd documents/
+   53  ls
+   54  cd
+   55  cd server_lesson/linux_practice2
+   56  ls
+   57  rm trash
+   58  rm -r trash
+   59  ls
+   60  cd documents
+   61  ls
+   62  cd ../
+   63  ls
+   64  rm -r documents/
+   65  ls
+   66  mkdir documents
+   67  cd documents/
+   68  touch gizumo{01..50}.md
+   69  ls
+   70  git add ../
+   71  git status
+   72  git commit -m "Q1 fix"
+   73  git log
+   74  cd ../
+   75  ls
+   76  mkdir torash
+   77  ls
+   78  rm -r torash
+   79  ls
+   80  mkdir trash
+   81  mv documents/gizumo{20..40}.md trash/
+   82  ls
+   83  documents
+   84  cd documents
+   85  ls
+   86  cd ../
+   87  cd trash
+   88  ls
+   89  cd ../
+   90  git add ../
+   91  git status
+   92  git commit -m "Q2"
+   93  git log
+   94  touch .gitignore
+   95  ls
+   96  ls -a
+   97  git status
+   98  git add .gitignore
+   99  git status
+  100  git commit -m "Q3"
+  101  git log
+  102  vim .gitignore
+  103  git status
+  104  git add .gitignore
+  105  git commit -m "Q4"
+  106  git check-ignore -v documents/gizumo20.md
+  107  git push origin practice2
+  108  git log
+  109  git check-ignore -v documents/gizumo20.md
+  110  ls
+  111  git check-ignore -v trash/gizumo20.md
+  112  vim .gitignore
+  113  git status
+  114  git add .gitignore
+  115  git commit -m "Q4 fix"
+  116  git check-ignore -v trash/gizumo20.md
+  117  git push origin practice2
+  118  git rm --cashed trash/gizumo2[0-9].md
+  119  git rm --cached trash/gizumo2[0-9].md
+  120  git log
+  121  git commmit -m "Q4 fix2"
+  122  git status
+  123  git add ../
+  124  git status
+  125  git status
+  126  git commmit -m "Q4 fix2"
+  127  git status
+  128  git check-ignore -v trash/gizumo20.md
+  129  git push origin practice2
+  130  echo 'trash/gizumo2[0-9].md' > .gitignore
+  131  vim .gitignore
+  132  git log
+  133  git commit -m "Q4 fix2"
+  134  git rm --cached trash/gizumo2[0-9].md
+  135  git add .gitignore
+  136  git status
+  137  git commit -m "Q4 fix2"
+  138  git check-ignore -v trash/gizumo20.md
+  139  git push origin practice2
+  140  history 300 > linux_practice2/exec_command.log
+  141  history 300 > exec_command.log
